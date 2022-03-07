@@ -14,6 +14,7 @@ export const v = {
 export const c = {
 	headerColor: "#090b13",
 	white: "#ffffff",
+	bg: "#040714",
 };
 
 export const b = {

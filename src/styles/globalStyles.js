@@ -8,16 +8,19 @@ export const GlobalStyle = createGlobalStyle`
     &::before {
         margin: 0;
         padding: 0;
-        box-sizing: 0;
+        box-sizing: border-box;
     }
 
     html {
         scroll-behavior: smooth;
         font-size: 62.5%;
+        background: ${c.bg};
+        color: ${c.white};
     }
 
     body {
         font-size: 1.6rem;
+        overflow-x: hidden;
     }
 
     ul {
