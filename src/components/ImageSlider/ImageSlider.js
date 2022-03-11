@@ -4,7 +4,8 @@ import { Slide, SliderContainer } from "./styles";
 const ImageSlider = () => {
 	let settings = {
 		dots: true,
-
+		infinite: true,
+		speed: 2000,
 		slidesToShow: 1,
 		sliderToScroll: 1,
 		autoplay: true,
